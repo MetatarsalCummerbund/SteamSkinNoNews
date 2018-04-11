@@ -27,7 +27,7 @@
 
 	layout
 	{
-		region { name=body margin=10 width=2 height=max }
+		region { name=body margin=10 width=max height=2 }
 		place { region=body control=headerlabel width=max }
 		place { region=body y=22 y=0 control=*newsitem dir=down width=max }
 		place { region=body align=bottom control=viewall margin-bottom=5 }
