@@ -27,9 +27,9 @@
 
 	layout
 	{
-		region { name=body margin=10 width=max height=2 }
-		place { region=body control=headerlabel width=max }
-		place { region=body y=22 y=0 control=*newsitem dir=down width=max }
-		place { region=body align=bottom control=viewall margin-bottom=5 }
+		region { name=body margin=10 width=max height=max }
+		place { region=body control=headerlabel width=max height=0 }
+		place { region=body y=22 y=0 control=*newsitem dir=down width=max height=0 }
+		place { region=body align=bottom control=viewall margin-bottom=5 height=0 }
 	}
 }
